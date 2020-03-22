@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<!-- Адптивная верстка -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Подключение css -->
+
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="wow.min.js"></script>
+	<script>
+    new WOW().init();
+  </script>
+  <!-- Анимация -->
+
+	<link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster|Montserrat&display=swap&subset=cyrillic-ext" rel="stylesheet">
+	<!-- Шрифты -->
+
+	<!--Отправка формы-->
+
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="js/app.js"></script>
+  <!-- Бургер -->
+
+	<script>
+	  $(document).ready(function(){
+	    $("a[href*=#]").on("click", function(e){
+	        var anchor = $(this);
+	        $('html, body').stop().animate({
+	            scrollTop: $(anchor.attr('href')).offset().top
+	        }, 1300);
+	        e.preventDefault();
+	        return false;
+	    });
+	});
+	</script>
+ 	<!-- Плавные якоря -->
+
+	<title>Kupina.SMM</title>
+</head>
+
+
+<body>
+
+	<header = class="header" id="header">
+		<div class="container">
+			<div class="header__inner">
+				<a href="#" class="header__logo">Kupina.SMM</a>
+				<nav class="nav" id="nav">
+					<naw class="naw"  id="menu">
+							<a class="nav_link" id="yak11" href="#yak1">Инфо</a>
+							<a class="nav_link" id="yak22" href="#yak2">Услуги</a>
+<!-- 							<a class="nav_link" id="yak33" href="#yak3">Отзывы</a> -->
+							<a class="nav_link" id="yak44" href="#yak3">Связь</a>
+					</naw>
+				</nav>
+
+				<button class="nav_toggle" id="nav_toggle">
+					<span class="nav_toggle_item">
+						Меню
+					</span>
+				</button>
+
+			</div>
+		</div>
+	</header>
+
+
+	<div class="intro" id="intro">
+		<div class="container">
+			<div class="intro_inner">
+					<h2 class="intro_subtitle wow tada" data-wow-duration="2s">Your expert</h2>
+				<h1 class="intro_title">Welcome to Kupina.SMM</h1>
+					<a class="btn" href="#yak1">Узнать больше</a>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<section class="section">
+	<div class="container">
+		<div class="section_header wow fadeInUp" data-wow-duration="2s">
+			<div id="yak1">
+				<h3 class="section_subtitle">Кто я</h3>
+			</div>
+			<h2 class="section_title">Коротко о главном</h2>
+			<div class="section_text_image">
+				<div class="section_text wow fadeInLeft" data-wow-duration="2s">
+					<p>Здравствуй, дорогой друг! Меня зовут Катерина! Я стану твоим личным проводником в мир Instagram! А ещё помогу привести деньги(клиентов) из соцсети в ТВОЙ БИЗНЕС!</p>
+				</div>
+				<div class="section_image wow fadeInRight" data-wow-duration="2s">
+					<img src="css/images/profil.png" width="100%" height="100%">
+				</div>
+			</div>
+		</div>
+
+		<div class="section_3_image">
+			<div class="_3_item  wow flipInX" data-wow-duration="2s">
+				<div class="_item">
+					<img src="css/images/reiting.jpg" alt="">
+				</div>
+				<div class="_item_text">
+					Дружелюбие
+				</div>
+			</div>
+			<div class="_3_item  wow flipInX" data-wow-duration="2s">
+				<div class="_item">
+					<img src="css/images/stol.jpg" alt="">
+				</div>
+				<div class="_item_text">
+					Поддержка
+				</div>
+			</div>
+			<div class="_3_item  wow flipInX" data-wow-duration="2s">
+				<div class="_item">
+					<img src="css/images/cvet.jpg" alt="">
+				</div>
+				<div class="_item_text">
+					Качество 
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Блок статистики -->
+
+<div class="statistics">
+	<div class="container">
+		<div class="stat">
+			<div class="stat_item wow zoomIn" data-wow-duration="2s"> <p>Девиз: "Ваш бизнес = мой бизнес"</p></div>
+			<div class="stat_item wow zoomIn" data-wow-duration="2s"><p>Выкладываюсь на максимум</p></div>
+			<div class="stat_item wow zoomIn" data-wow-duration="2s"><p>Связь на протяжении всего сотрудничества</p></div>
+			<div class="stat_item wow zoomIn" data-wow-duration="2s"><p>Отчет о проделанной работа</p></div>
+			<div class="stat_item wow zoomIn" data-wow-duration="2s"><p>Найдется подход к каждому</p></div>
+		</div>
+	</div>
+</div>
+
+<!-- Блок услуг -->
+<section class="section">
+	<div class="container">
+		<div class="section_header">
+			<div id="yak2">
+			<h3 class="section_subtitle  wow fadeInUp" data-wow-duration="2s">Услуги</h3>
+			</div>
+			<h2 class="section_title  wow fadeInUp" data-wow-duration="2s">Чем я занимаюсь</h2>
+
+
+			<div class="servises">
+				<div class="servises_top wow bounceIn" data-wow-duration="2s">
+					<div class="servises_item">
+						<img class="servises_icon" src="css/images/case.png" alt="">
+						<div class="servises_title">Упаковка аккаунта</div>
+					</div>
+					<div class="servises_item">
+						<img class="servises_icon" src="css/images/key.png" alt="">
+						<div class="servises_title">Ведение под ключ</div>
+					</div>
+					<div class="servises_item">
+						<img class="servises_icon" src="css/images/audit.png" alt="">
+						<div class="servises_title">Аудит профиля</div>
+					</div>
+				</div>
+				<div class="servises_bot wow bounceIn" data-wow-duration="2s">
+					<div class="servises_item">
+						<img class="servises_icon" src="css/images/front.png" alt="">
+						<div class="servises_title">Оформление шапки</div>
+					</div>
+					<div class="servises_item">
+						<img class="servises_icon" src="css/images/text.png" alt="">
+						<div class="servises_title">Написание текстов</div>
+					</div>
+				</div>
+			</div>
+		<div>
+	<div>
+</section>
+
+<!-- Блок с телефоном -->
+<section class="section section--devices">
+	<div class="container">
+		<div class="section_header">
+				<h3 class="section_subtitle  wow fadeInUp" data-wow-duration="2s">Прокачаю</h3>
+			<h2 class="section_title  wow fadeInUp" data-wow-duration="2s">Твой аккаунт</h2>
+		</div>
+		<div class="devices">
+			<div class="ipad wow fadeInUp" data-wow-duration="2s">
+				<img src="css/images/ipad.png" width="400px" height="auto" alt="">
+			</div>
+			<div class="iphone wow fadeInUp" data-wow-duration="2s">
+				<img src="css/images/iphone.png" width="200px" height="auto alt="">
+			</div>
+		</div>
+	</div>	
+</section> 
+
+<!-- Блок связи -->
+<section class="section section--communication">
+	<div class="container">
+		<div class="section_header">
+			<div id="yak3">
+			<h3 class="section_subtitle  wow fadeInUp" data-wow-duration="2s">Контакты</h3>
+			</div>
+			<h2 class="section_title  wow fadeInUp" data-wow-duration="2s">Связь со мной</h2>
+			<div class="communication">
+				<div class="communication_image">
+					<a href="https://api.whatsapp.com/send?phone=79064907239&text=" target="_blank"><img src="css/images/whatsapp.png" class="wow swing" duration="2s" width="155px" height="155px" alt=""></a>
+					<a href="https://www.instagram.com/kupina.smm/" target="_blank"><img src="css/images/instagram.png" class="wow swing" duration="2s" width="138px" height="138px" alt=""></a>
+					<a href="/link/8232873.9d004c/telegram/" target="_blank"><img src="css/images/telegram.png" class="wow swing" duration="2s" width="138px" height="138px" alt=""></a>
+				</div>
+				<div class="form">
+					<div class="form_text wow fadeInLeft" duration="2s"">Заполните форму и получите БЕСПЛАТНЫЙ чек-лист продвижения профиля в инстаграм</div>
+					<div class="form_input wow fadeInRight" duration="2s"">
+						<form action="mail.php" method="POST">
+							<fieldset>
+								<form>
+									<div class="form_input_input">
+										<label for="name">Ваше имя:</label>
+										<input id="" name="user_name" type="text" placeholder="Name" required>
+										<br>
+
+										<label for="inst">Ваш instagram:</label>
+										<input id="" name="user_inst" type="text" placeholder="Instagram" required>
+										<br>
+
+										<label for="email">Ваш Email:</label>
+										<input id="" name="user_email" type="text" placeholder="@mail.ru" required>
+										<br>
+									</div>
+									<button type="submit">Отправить заявку!</button>
+								</form>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+
+		<div class="creater">
+			2019 Kupina.SMM by makreev 
+		</div>
+
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
